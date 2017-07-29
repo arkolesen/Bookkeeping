@@ -312,7 +312,7 @@ body {
   font-size: 17px;
   line-height: 1.52857143;
   color: #515253;
-  background-color: #f5f7fa;
+  background-color: #fff;
 }
 input,
 button,
@@ -323,12 +323,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #5d9cec;
+  color: #11181b;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #1b72e2;
+  color: #949494;
   text-decoration: underline;
 }
 a:focus {
@@ -844,7 +844,7 @@ pre code {
   padding-left: 15px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: right;
+  float: left;
 }
 .col-xs-12 {
   width: 100%;
@@ -1001,7 +1001,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: right;
+    float: left;
   }
   .col-sm-12 {
     width: 100%;
@@ -1159,7 +1159,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: right;
+    float: left;
   }
   .col-md-12 {
     width: 100%;
@@ -1276,48 +1276,48 @@ pre code {
     right: auto;
   }
   .col-md-offset-12 {
-    margin-right: 100%;
+    margin-left: 100%;
   }
   .col-md-offset-11 {
-    margin-right: 91.66666667%;
+    margin-left: 91.66666667%;
   }
   .col-md-offset-10 {
-    margin-right: 83.33333333%;
+    margin-left: 83.33333333%;
   }
   .col-md-offset-9 {
-    margin-right: 75%;
+    margin-left: 75%;
   }
   .col-md-offset-8 {
-    margin-right: 66.66666667%;
+    margin-left: 66.66666667%;
   }
   .col-md-offset-7 {
-    margin-right: 58.33333333%;
+    margin-left: 58.33333333%;
   }
   .col-md-offset-6 {
-    margin-right: 50%;
+    margin-left: 50%;
   }
   .col-md-offset-5 {
-    margin-right: 41.66666667%;
+    margin-left: 41.66666667%;
   }
   .col-md-offset-4 {
-    margin-right: 33.33333333%;
+    margin-left: 33.33333333%;
   }
   .col-md-offset-3 {
-    margin-right: 25%;
+    margin-left: 25%;
   }
   .col-md-offset-2 {
-    margin-right: 16.66666667%;
+    margin-left: 16.66666667%;
   }
   .col-md-offset-1 {
-    margin-right: 8.33333333%;
+    margin-left: 8.33333333%;
   }
   .col-md-offset-0 {
-    margin-right: 0%;
+    margin-left: 0%;
   }
 }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: right;
+    float: left;
   }
   .col-lg-12 {
     width: 100%;
@@ -3205,7 +3205,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3576,7 +3576,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: right;
+    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -6175,7 +6175,9 @@ header {
   }
 }
 header.novideo {
-  background: radial-gradient(circle at 1.98% 85.01%,#134E5E,transparent 100%),radial-gradient(circle at 98.02% 18.98%,#71B280,transparent 100%),radial-gradient(circle at 50% 50%,#0cc285,#0cc285 100%);
+  background:url('../img/logo.jpg') 45% 35% no-repeat;
+  background-size: 80%;
+  max-width: 100%;
 }
 header .intro-section {
   margin: 0 auto;
@@ -6246,12 +6248,12 @@ header .top-logo p, header .top-logo span {
 header .top-logo > img {
   display: inline-block;
   max-height: 100%;
-  width: auto;
+  width: 90%;
 }
 @media only screen and (min-width: 768px) {
   header .top-logo {
     height: auto;
-    padding: 60px;
+    padding: 110px 60px 30px 60px;
   }
 }
 @media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -6264,7 +6266,6 @@ header .full-screen {
   min-height: 100vh;
 }
 .versions {
-  padding-top: 80px;
   padding-bottom: 30px;
   background: #fff;
 }
@@ -6908,4 +6909,12 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
 
 .font-24 {
     font-size: 24px;
+}
+
+.navigation {
+    font-size: 0.85em;
+}
+
+.separator {
+    color: #42e98c;
 }
