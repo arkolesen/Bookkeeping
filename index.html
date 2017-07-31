@@ -34,7 +34,7 @@
    <link rel="stylesheet" href="vendor/animate.css/animate.css">
    <!-- SITE CSS-->
    <link rel="stylesheet" href="css/styles-rtl.css" id="stylescss">
-   <link rel="stylesheet" href="css/theme-a.css">
+   <!-- <link rel="stylesheet" href="css/theme-a.css"> -->
    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><script src="js/respond.min.js"></script><![endif]-->
 </head>
 
@@ -44,12 +44,12 @@
       <div class="loading">Загрузка ...</div>
    </div>
    <!-- START HEADER-->
-   <header id="header" class="header novideo">
+   <header id="header" class="header">
       <div class="full-screen">
          <!-- START STICKY NAVBAR-->
          <div class="navbar navbar-default navbar-fixed-top navbar-sticky">
             <div class="container">
-               <div class="navbar-header">
+                <div class="navbar-header">
                   <button type="button" data-toggle="collapse" data-target="#navbar-main" class="navbar-toggle">
                      <span class="sr-only">Навигация</span>
                      <span class="icon-bar"></span>
@@ -57,26 +57,30 @@
                      <span class="icon-bar"></span>
                   </button>
                   <a href="#" class="navbar-brand">
-                     <span class="fa fa-book"></span>
-                     Бухгалтикум
+                      Мой любимый бухгалтер
                   </a>
+               </div>
+               <div class="navbar-header">
+                  <button type="button" data-toggle="collapse" data-target="#navbar-main" class="navbar-toggle">
+                     <span class="sr-only">Навигация</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
                </div>
                <!-- MENU-->
                <div id="navbar-main" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right main-navbar">
-                     <li><a href="#header">Главная</a>
-                     </li>
-                     <li><a href="#features">Услуги</a>
-                     </li>
-                     <li><a href="#shots">Портфолио</a>
-                     </li>
-                     <li><a href="#plans">Цены</a>
-                     </li>
-                     <li>
-                        <a href="#download">
-                           <strong>Звонок</strong>
-                        </a>
-                     </li>
+                      <li><a href="#about">О компании</a></li>
+
+                      <li><a href="#services">Услуги</a></li>
+
+                      <li><a href="#price">Стоимость</a></li>
+
+                      <li><a href="#news">Новости</a></li>
+
+                      <li><a href="#contact">Контакты</a></li>
+
                   </ul>
                </div>
             </div>
@@ -84,43 +88,165 @@
          <!-- END STICKY NAVBAR-->
          <div class="container">
             <!-- MAIN LOGO-->
-            <div class="top-logo">
-                <span class="fa fa-book fa-2x"></span>
-               <p>Бухгалтикум</p>
-            </div>
             <div class="row">
-               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="top-logo">
+                    <img src="img/logo.jpg" alt="">
+                </div>
+               <div class="col-md-6 col-md-offset-3">
                   <!-- INTRO MESSAGE-->
-                  <div class="intro-section">
-                     <h1 class="intro">Любые услуги бухгалтерского учета</h1>
-                     <h5>Также в <a href="#" class="buy-link">Инстаграм</a>
-                     </h5>
-                     <!-- DEMO BUTTON-->
-                     <div class="text-center">
-                         <a href="#features" class="btn btn-lg btn-theme scrollto">
-                             <i class="icon-app-download"></i><span>Услуги</span>
-                         </a>
-                     </div>
+                  <div class="navigation clearfix">
+                     <ul class="nav navbar-nav navbar-right main-navbar">
+                        <li><a href="#about">О компании</a></li>
+                        <li class="menu-item separator"><span>•</span></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li class="menu-item separator"><span>•</span></li>
+                        <li><a href="#price">Стоимость</a></li>
+                        <li class="menu-item separator"><span>•</span></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li class="menu-item separator"><span>•</span></li>
+                        <li><a href="#contact">Контакты</a></li>
+                     </ul>
                   </div>
-                  <!-- <div class="intro-shot">
-                     <img src="img/header.shot.png" alt="Header shot" data-no-retina="" class="img-responsive">
-                  </div> -->
                </div>
             </div>
          </div>
       </div>
    </header>
    <!-- END HEADER-->
+   <section id="about" class="pic-text-left light-grey-bg">
+      <div class="container">
+         <div class="row">
+            <!-- LEFT PIC-->
+            <!-- <div data-wow-offset="15" data-wow-duration="1.2s" class="col-md-6 wow fadeInLeft animated">
+               <div class="mockup-mobile">
+                  <img class="photo-img" src="img/photo.jpg" alt="" data-no-retina>
+               </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Давайте знакомиться</h2>
+                    <p><i>
+                        Меня зовут Татьяна Кузнецова.
+                      Я руководитель, главный бухгалтер, любящая и любимая жена и мама и,
+                      конечно, самый ярый поклонник Бухгалтерского учета </i>
+                    </p>
+                </div>
+              </div>
+            </div> -->
+            <div>
+                <div style="background-image: url(img/bg7.jpg); background-repeat: no-repeat; background-size: cover" class="bg-cover">
+                      <div class="p-xl text-center white">
+                         <img src="img/photo_1.jpg" alt="Image" class="img-thumbnail circle thumb256 box-shadow">
+                         <h3 class="m0">Давайте знакомиться</h3>
+                         <p>Меня зовут Татьяна Кузнецова.</p>
+                         <p>Я руководитель, главный бухгалтер, любящая и любимая жена и мама и,
+                         конечно, самый ярый поклонник Бухгалтерского учета</p>
+                      </div>
+                   </div>
+            </div>
+         </div>
+      </div>
+   </section>
    <!-- START APP SHOTS-->
    <section id="versions" class="versions">
       <div class="container">
          <!-- START SECTION HEADER-->
          <div data-wow-offset="120" data-wow-duration="1.3s" class="section-header wow fadeIn animated">
             <!-- SECTION TITLE-->
-            <h2>Наши возможности</h2>
+            <h3>ВАШ  ЛЮБИМЫЙ  БУХГАЛТЕР  ВСЕГДА  РЯДОМ! – девиз моей компании</h3>
+            <p>
+                Бизнес в Республике Беларусь сегодня растёт быстрыми темпами.
+                 Объёмы товарных и финансовых операций постоянно увеличиваются,
+                  растёт и количество документации, связанной с их деятельностью.
+                 Для поддержания в ней порядка необходим немалый штат бухгалтеров,
+                  а соответственно не малые затраты на его содержание.
+            </p>
          </div>
+
+         <p>
+             Заказывать услуги ведения бухучёта своей организации в специализированной компании – хороший способ сэкономить:
+         </p>
+         <ul class="featured-list">
+              <li>
+                 <span class="fa-stack fa-lg">
+                    <em class="fa fa-circle fa-stack-2x"></em>
+                    <em class="fa fa-code fa-stack-1x fa-inverse"></em>
+                 </span>
+                 Вы экономите 35% от зарплаты штатного бухгалтера на платежах в Белгосстрах и ФСЗН.
+              </li>
+              <li>
+                 <span class="fa-stack fa-lg">
+                    <em class="fa fa-circle fa-stack-2x"></em>
+                    <em class="fa fa-bullhorn fa-stack-1x fa-inverse"></em>
+                 </span>
+                 Вам не нужно переплачивать зарплату, тратиться на обустройство рабочего места и программное обеспечение.
+              </li>
+              <li>
+                 <span class="fa-stack fa-lg">
+                    <em class="fa fa-circle fa-stack-2x"></em>
+                    <em class="fa fa-compass fa-stack-1x fa-inverse"></em>
+                 </span>
+                 Вы получаете непрерывное бухгалтерское обслуживание,
+                    в то время как штатный бухгалтер может болеть, уйти в отпуск, внезапно уволиться.
+              </li>
+              <li>
+                 <span class="fa-stack fa-lg">
+                    <em class="fa fa-circle fa-stack-2x"></em>
+                    <em class="fa fa-paint-brush fa-stack-1x fa-inverse"></em>
+                 </span>
+                 Работа стоит дешевле, а оплата услуг относится на затраты.
+              </li>
+              <li>
+                 <span class="fa-stack fa-lg">
+                    <em class="fa fa-circle fa-stack-2x"></em>
+                    <em class="fa fa-paint-brush fa-stack-1x fa-inverse"></em>
+                 </span>
+                 Кроме того, приобретение услуг бухгалтерской фирмы позволяет избежать рисков,
+                      связанных со штрафами за ненадлежащее ведение бухучёта, т.к. все они покрываются
+                       за счет средств бухгалтерской компании.
+                      Для обеспечения гарантии выплат наша профессиональная ответственность застрахована.
+              </li>
+           </ul>
+           <p>
+                Недаром, за рубежом фирмы регулярно используют сторонние бухгалтерские услуги.
+                 Например, 96% компаний Израиля заказывают бухучёт у специализированных организаций,
+                  а в США этот показатель равен 92%.
+           </p>
+
+           <blockquote class="box-shadow">
+               <p>
+                    <b>Кстати</b> <br>
+                    <i>Передавать на аутсорсинг бухгалтерию предпочитает не только малый и средний бизнес,
+                     но и мировые лидеры промышленности и торговли. Так, компания IKEA для оформления документации
+                      и отчетности использует 2,5 тысячи сторонних организаций,
+                     сосредотачивая собственные кадровые ресурсы на розничных продажах. Услугами аутсорсеров
+                      пользуются и в NOKIA Corporation.</i>
+               </p>
+           </blockquote>
+           <p>
+                Предлагаемые нами профессиональные услуги бухгалтера являются комплексными и предусматривают
+                 выполнение всех необходимых для организации бухгалтерского и налогового учета мероприятий,
+                  включая подготовку пакета документов для регистрации бизнеса, открытие расчетного счета,
+                   формирование первичной документации для субъектов предпринимательства, начинающих свою работу,
+                    подготовку и сдачу налоговой отчетности.
+           </p>
+           <h3>
+                Мы не живем сегодняшним днем, наша основная цель – долгосрочное и взаимовыгодное сотрудничество.
+           </h3>
+           <p>
+                С нами Вы экономите Ваше время, силы и ресурсы!
+           </p>
+           <p>
+                Мы очень оценим доверие, оказанное нам, и с радостью будем Вам служить, оказывая Вам качественную бухгалтерскую помощь!
+           </p>
+           <br>
+           <p>
+               С уважением, <br>
+                Ваш любимый бухгалтер Кузнецова Татьяна.
+           </p>
          <!-- END SECTION HEADER-->
-         <div class="row bottom-space">
+         <!-- <div class="row bottom-space">
             <div class="col-lg-4 col-sm-6 col-xs-12">
                <div class="media media-card">
                   <div class="media-left media-middle">
@@ -200,77 +326,166 @@
                </div>
             </div>
          </div>
-         <div class="text-center font-24 vert-align">
+         <div class="text-center font-md vert-align">
             <p>
-               <!-- <img width="70px" src="http://bdg.by/sites/default/files/styles/width_300/public/field/image/akcia.gif" alt="" data-no-retina="" data-wow-offset="15" data-wow-duration=".5s" class="wow zoomIn animated"> -->
             <span class="fa fa-percent fa-3x theme-color"></span>
                Только сейчас услуги по доступной цене!
            </p>
-         </div>
+         </div> -->
       </div>
    </section>
 
    <!-- START PIC TEXT LEFT-->
-   <section id="features" class="pic-text pic-text-left">
-      <div class="container">
-         <div class="row">
-            <!-- LEFT PIC-->
-            <div data-wow-offset="15" data-wow-duration="1.2s" class="col-md-6 wow fadeInLeft animated">
-               <div class="mockup-mobile">
-                  <img src="https://30dvdip42d78qkrrofmy5gpy-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/icon_tax-300x300.png" alt="" data-no-retina>
-               </div>
-            </div>
-            <!-- RIGHT TEXT-->
-            <div class="col-md-6">
-               <!-- SECTION TITLE-->
-               <h2>Наши услуги</h2>
-               <p>    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati similique odio magni ut, saepe necessitatibus doloribus earum, sed, cumque nulla delectus repudiandae dolore excepturi sunt, numquam nisi facere. Qui, porro?</p>
-               <!-- FEATURE LIST-->
-               <ul class="featured-list">
-                  <li>
-                     <span class="fa-stack fa-lg">
-                        <em class="fa fa-circle fa-stack-2x"></em>
-                        <em class="fa fa-code fa-stack-1x fa-inverse"></em>
-                     </span>
-                     <p>Lorem ipsum dolor sit amet</p>
-                  </li>
-                  <li>
-                     <span class="fa-stack fa-lg">
-                        <em class="fa fa-circle fa-stack-2x"></em>
-                        <em class="fa fa-bullhorn fa-stack-1x fa-inverse"></em>
-                     </span>
-                     <p>Lorem ipsum dolor sit.</p>
-                  </li>
-                  <li>
-                     <span class="fa-stack fa-lg">
-                        <em class="fa fa-circle fa-stack-2x"></em>
-                        <em class="fa fa-compass fa-stack-1x fa-inverse"></em>
-                     </span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                  </li>
-                  <li>
-                     <span class="fa-stack fa-lg">
-                        <em class="fa fa-circle fa-stack-2x"></em>
-                        <em class="fa fa-paint-brush fa-stack-1x fa-inverse"></em>
-                     </span>
-                     <p>Lorem ipsum dolor.</p>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </section>
+
    <!-- END PIC TEXT LEFT-->
    <!-- START APP SHOTS-->
-   <section id="shots" class="appshots">
+   <section id="services" class="appshots">
       <div class="container">
          <!-- SECTION HEADER-->
          <div class="section-header">
-            <h2>Наши клиенты</h2>
-            <div class="section-description">И этот список далеко не весь!</div>
+            <h2 class="stripes"><span>Услуги</spam></h2>
          </div>
-         <!-- END SECTION HEADER-->
+         <p class="font-md">
+                Ведение бухгалтерского учета – это один из немаловажных процессов в ведении бизнеса
+                 в Республике Беларусь. От правильности, точности и грамотного ведения учета зависит
+                  не только прибыль организации, но и гарантия спокойного прохождения проверок.
+         </p>
+         <p class="font-md">
+            В зависимости от специфики вашей организации вам может потребоваться огромный штат бухгалтеров.
+             И не редко руководители организаций сталкиваются с проблемой поиска грамотного специалиста,
+              который потребует много затрат и времени.
+         </p>
+         <p class="font-md">
+            Обратившись в нашу бухгалтерскую компанию, Вы получите своевременную и быструю обработку первичных
+             документов (с проверкой правильности оформления входящего документа), подготовка и сдача бухгалтерской
+              и налоговой отчетности не составит проблем и будет сдана четко и в сроки.
+         </p>
+         <p class="font-md">
+            Предлагаю ознакомиться с услугами, которые оказывает наша компания:
+         </p>
          <div class="row">
+             <div class="col-md-6">
+                <div class="panel panel-default box-shadow">
+                    <div class="panel-body">
+                        <ul class="featured-list">
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Разработка учетной политики организации
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Постановка и ведения бухгалтерского учета всех систем налогообложения (УСН, ОСН, ЕНВД).
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                              Обработка и систематизация первичных документов бухгалтерского учета.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                              Ведение бухгалтерской программы 1С.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                              Восстановление бухгалтерского и налогового учета в случае,
+                               если этот учет за предыдущий период времени не велся или велся ненадлежащим образом.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Расчет заработной платы сотрудников, а также больничных и отпускных.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Персонифицированный учет. Отчеты ФСЗН и Белгосстрах.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-md-6">
+                 <div class="panel panel-default box-shadow">
+                    <div class="panel-body">
+                        <ul class="featured-list">
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Помощь и подготовка документации при регистрации нового предприятия.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Подготовка пакета документов для получения кредита в банке, а также при оформлении лизинга.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Помощь в оптимизации налогообложения и выбора налоговой системы.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Консультирование по вопросам бухгалтерского и налогового учета.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Подготовка бухгалтерской и налоговой отчетности, сдача отчетности в налоговую инспекцию.
+                            </li>
+                            <li>
+                               <span class="fa-stack fa-lg">
+                                  <em class="fa fa-circle fa-stack-2x"></em>
+                                  <em class="fa fa-star fa-stack-1x fa-inverse"></em>
+                               </span>
+                               Заполнение отчетов статистики и сдача их в соответствующие органы.
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+             </div>
+         </div>
+         <p class="font-md">
+             Заключая с нами договор, мы берем на себя всю ответственность и учитываем специфику вашей
+              деятельности, мы поможем Вам выбрать несколько вариантов сотрудничества
+               по бухгалтерскому обслуживанию и сопровождению.
+         </p>
+         <p class="font-md">
+            Специально для вас мы разработали несколько пакетов услуг, которые будут
+             оптимально настроены под вашу деятельность, систему налогообложения,
+              штат сотрудников, документооборот и другое. Ознакомиться с пакетами услуг можно в разделе «стоимость».
+         </p>
+
+         <!-- <div class="row">
             <div id="appshots" class="owl-carousel owl-theme">
                <div class="shot">
                   <a href="http://lorempixel.com/257/456" data-lightbox-gallery="appshots">
@@ -313,109 +528,404 @@
                    </a>
                </div>
             </div>
-         </div>
+         </div> -->
       </div>
    </section>
    <!-- END APP SHOTS-->
 
    <!-- START PLAN TABLE-->
-   <section id="plans" class="plan-table">
+   <section id="price" class="plan-table light-grey-bg">
       <div class="container">
          <!-- SECTION HEADER-->
          <div data-wow-offset="15" data-wow-duration="1.3s" class="section-header wow fadeIn animated">
-            <h2>Наши цены</h2>
+             <h2 class="stripes"><span>Стоимость</spam></h2>
          </div>
          <!-- END SECTION HEADER-->
          <div class="row">
             <!-- PLAN-->
-            <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
-               <div class="plan">
-                  <h3 class="plan-header">Single</h3>
-                  <div class="plan-price">
-                     <h2><sup><small>$</small></sup>18
-                        <!-- span.plan-period /mo-->
-                     </h2>
-                  </div>
-                  <ul class="plan-features">
-                     <li>
-                        <em class="fa fa-check"></em>Unlimited Styles</li>
-                     <li>
-                        <em class="fa fa-check"></em>RTL &amp; Translation</li>
-                     <li>
-                        <em class="fa fa-check"></em>Customer support</li>
-                     <li>
-                        <em class="fa fa-check"></em>Free Updates</li>
-                     <li>
-                        <em class="fa fa-check"></em>Limited to one client</li>
-                     <li>
-                        <em class="fa fa-times plan-feature-disable"></em>Multiple installation</li>
-                     <li>
-                        <em class="fa fa-times plan-feature-disable"></em>Not ready for resale</li>
-                  </ul>
-                  <hr>
-               </div>
-            </div>
-            <!-- PLAN-->
-            <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
-               <div class="plan">
-                  <h3 class="plan-header">Multiple</h3>
-                  <div class="plan-price">
-                     <h2><sup><small>$</small></sup>60
-                        <!-- span.plan-period /mo-->
-                     </h2>
-                  </div>
-                  <ul class="plan-features">
-                     <li>
-                        <em class="fa fa-check"></em>Unlimited Styles</li>
-                     <li>
-                        <em class="fa fa-check"></em>RTL &amp; Translation</li>
-                     <li>
-                        <em class="fa fa-check"></em>Customer support</li>
-                     <li>
-                        <em class="fa fa-check"></em>Free Updates</li>
-                     <li>
-                        <em class="fa fa-check"></em>Unlimited clients</li>
-                     <li>
-                        <em class="fa fa-check"></em>Multiple installation</li>
-                     <li>
-                        <em class="fa fa-times plan-feature-disable"></em>Not ready for resale</li>
-                  </ul>
-                  <hr>
-               </div>
-            </div>
-            <!-- PLAN-->
-            <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
-               <div class="plan">
-                  <h3 class="plan-header">Extended</h3>
-                  <div class="plan-price">
-                     <h2><sup><small>$</small></sup>900
-                        <!-- span.plan-period /mo-->
-                     </h2>
-                  </div>
-                  <ul class="plan-features">
-                     <li>
-                        <em class="fa fa-check"></em>Unlimited Styles</li>
-                     <li>
-                        <em class="fa fa-check"></em>RTL &amp; Translation</li>
-                     <li>
-                        <em class="fa fa-check"></em>Customer support</li>
-                     <li>
-                        <em class="fa fa-check"></em>Free Updates</li>
-                     <li>
-                        <em class="fa fa-check"></em>Unlimited clients</li>
-                     <li>
-                        <em class="fa fa-check"></em>Multiple installation</li>
-                     <li>
-                        <em class="fa fa-check"></em>Ready for resale</li>
-                  </ul>
-                  <hr>
+            <div class="row">
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «СТАРТ»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>100*
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"> </em> Ведение бухгалтерского учета при <b>УСН</b></li>
+                         <li>
+                            <em class="fa fa-check"> </em> Расчет заработной платы, больничных, отпусков до 5 сотрудников в штате.</li>
+                         <li>
+                            <em class="fa fa-check"> </em> Обработка первичной документации, предоставленной клиентом до <b>20</b> документов** в месяц.
+    </li>
+                         <li>
+                            <em class="fa fa-check"> </em> Контроль за правильностью оформления
+                             первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах.
+                             Формирование годовой (квартальной) бухгалтерской отчетности.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету
+                             (приказы по штатным изменениям: прием, увольнение, изменение оклада)</li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                        <li>
+                           <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
+                   </div>
+                </div>
+                <!-- PLAN-->
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «СТАРТ+»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>130
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"></em> Ведение бухгалтерского учета при <b> ОСН </b></li>
+                         <li>
+                            <em class="fa fa-check"></em> Расчет заработной платы, больничных, отпусков до 5 сотрудников в штате.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Обработка первичной документации, предоставленной клиентом до <b>20</b> документов** в месяц</li>
+                         <li>
+                            <em class="fa fa-check"></em> Контроль за правильностью оформления первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах. Формирование годовой (квартальной) бухгалтерской отчетности.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету (приказы по штатным изменениям: прием, увольнение, изменение оклада)</li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                        <li>
+                           <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
+                   </div>
+                </div>
+                <!-- PLAN-->
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «ЛАЙТ»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>180
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"></em> Ведение бухгалтерского учета при <b>УСН</b></li>
+                         <li>
+                            <em class="fa fa-check"></em> Обработка первичной документации, предоставленной клиентом до <b>50</b> документов** в месяц.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Контроль за правильностью оформления первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах. Формирование годовой (квартальной) бухгалтерской отчетности.
+    </li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету (приказы по штатным изменениям: прием, увольнение, изменение оклада)/li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                         <li>
+                            <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
 
-               </div>
+                   </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «ЛАЙТ+»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>230
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"></em> Ведение бухгалтерского учета при <b> ОСН </b></li>
+                         <li>
+                            <em class="fa fa-check"></em> Расчет заработной платы, больничных, отпусков до 5 сотрудников в штате.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Обработка первичной документации, предоставленной клиентом до <b>50</b> документов** в месяц</li>
+                         <li>
+                            <em class="fa fa-check"></em> Контроль за правильностью оформления первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах. Формирование годовой (квартальной) бухгалтерской отчетности.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету (приказы по штатным изменениям: прием, увольнение, изменение оклада)</li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                        <li>
+                           <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
+                   </div>
+                </div>
+
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «БИЗНЕС»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>250
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"></em> Ведение бухгалтерского учета при <b> УСН </b></li>
+                         <li>
+                            <em class="fa fa-check"></em> Расчет заработной платы, больничных, отпусков до 5 сотрудников в штате.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Обработка первичной документации, предоставленной клиентом до <b>100</b> документов** в месяц</li>
+                         <li>
+                            <em class="fa fa-check"></em> Контроль за правильностью оформления первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах. Формирование годовой (квартальной) бухгалтерской отчетности.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету (приказы по штатным изменениям: прием, увольнение, изменение оклада)</li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                        <li>
+                           <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
+                   </div>
+                </div>
+
+                <div data-wow-offset="15" data-wow-duration="1.3s" class="col-md-4 col-sm-4 wow fadeIn animated">
+                   <div class="plan box-shadow">
+                      <h3 class="plan-header">Пакет «БИЗНЕС+»</h3>
+                      <div class="plan-price">
+                         <h2><sup><small>$</small></sup>300
+                            <!-- span.plan-period /mo-->
+                         </h2>
+                      </div>
+                      <ul class="plan-features">
+                         <li>
+                            <em class="fa fa-check"></em> Ведение бухгалтерского учета при <b> УСН </b></li>
+                         <li>
+                            <em class="fa fa-check"></em> Расчет заработной платы, больничных, отпусков до 5 сотрудников в штате.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Обработка первичной документации, предоставленной клиентом до <b>100</b> документов** в месяц</li>
+                         <li>
+                            <em class="fa fa-check"></em> Контроль за правильностью оформления первичной документации на соответствие требованиям законодательства РБ.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Заполнение налоговых деклараций, отчетов в ФСЗН и Белгосстрах. Формирование годовой (квартальной) бухгалтерской отчетности.</li>
+                         <li>
+                            <em class="fa fa-check"></em> Услуги по кадровому учету (приказы по штатным изменениям: прием, увольнение, изменение оклада)</li>
+                         <li>
+                            <em class="fa fa-check"></em> Консультация по вопросам бухгалтерского учета</li>
+                        <li>
+                           <em class="fa fa-check"></em> Сопровождение в период налоговых проверок</li>
+                      </ul>
+                      <hr>
+                   </div>
+                </div>
+            </div>
+            <p class="font-md text-center">
+                *Расчёт в белорусских рублях по курсу НБ РБ на дату оплаты.
+            </p>
+            <p class="font-md text-center">
+                **Для ТН и ТТН до 30 позиций в документе - входит в пакет обслуживания.
+            </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default box-shadow">
+                     <div class="panel-heading">Стоимость дополнительных услуг (доллар США*)</div>
+                     <div class="panel-body">
+                        <div class="table-responsive">
+                           <table class="table table-striped">
+                              <thead>
+                                 <tr>
+                                    <th width="60%">Наименование услуги</th>
+                                    <th width="20%">ОСН</th>
+                                    <th width="20%">УСН</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>Нулевая отчетность</td>
+                                    <td class="text-center">50</td>
+                                    <td class="text-center">30</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Нулевой баланс</td>
+                                    <td class="text-center">70</td>
+                                    <td class="text-center">50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Восстановление бухгалтерского учета (за 1 месяц восстановления)</td>
+                                    <td class="text-center">100</td>
+                                    <td class="text-center">80</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Составление учетной политики организации</td>
+                                    <td class="text-center">100</td>
+                                    <td class="text-center">50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Составление годового баланса с приложениями, пояснительной записки</td>
+                                    <td class="text-center">100</td>
+                                    <td class="text-center">100</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Подготовка пакета документов для получения кредита</td>
+                                    <td class="text-center">150</td>
+                                    <td class="text-center">150</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Подготовка пакета документов для оформления лизинга</td>
+                                    <td class="text-center">150</td>
+                                    <td class="text-center">150</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Участие в инвентаризации, с последующим оформлением результатов</td>
+                                    <td class="text-center">100</td>
+                                    <td class="text-center">100</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Составление статистической отчетности месячный отчет (одна форма)</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">5</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Составление статистической отчетности квартальный отчет (одна форма)</td>
+                                    <td class="text-center">7</td>
+                                    <td class="text-center">7</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Составление статистической отчетности годовой отчет (одна форма)</td>
+                                    <td class="text-center">10</td>
+                                    <td class="text-center">10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Начисление заработной платы 1 сотрудника</td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">3</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Подготовка персонифицированного отчета на 1 сотрудника</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">5</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Разработка штатного расписания до 15 человек</td>
+                                    <td class="text-center">50</td>
+                                    <td class="text-center">50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Ведение клиент/интернет-банка </td>
+                                    <td class="text-center">20</td>
+                                    <td class="text-center">20</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Создание и выставление электронных счетов-фактур по НДС (ЭСЧФ) (за 1 ЭСЧФ)</td>
+                                    <td class="text-center">0.5</td>
+                                    <td class="text-center">0.5</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Обработка ТН и ТТН от 31 до 50 позиций (за 1 документ)</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">5</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Обработка ТН и ТТН от 51 до 70 позиций (за 1 документ)</td>
+                                    <td class="text-center">6</td>
+                                    <td class="text-center">6</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Обработка ТН и ТТН от 71 до 100 позиций (за 1 документ)</td>
+                                    <td class="text-center">7</td>
+                                    <td class="text-center">7</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Обработка ТН и ТТН свыше 100 позиций (за 1 документ)</td>
+                                    <td class="text-center">10</td>
+                                    <td class="text-center">10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Услуга <i>«Бухгалтер на час»</i> (включает оказание помощи индивидуальным
+                                        предпринимателям в составлении налоговых деклараций, заполнение книги учета доходов и расходов и другое)</td>
+                                    <td class="text-center">15</td>
+                                    <td class="text-center">15</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Услуга курьера по доставке документов </td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">5</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <blockquote>
+                    Стоимость услуг по ведению бухгалтерского и налогового учета для строительных,
+                     производственных, внешнеторговых, а также осуществляющих розничную
+                      торговлю оговариваются индивидуально с каждым клиентом
+                </blockquote>
+            </div>
+
          </div>
       </div>
    </section>
    <!-- END PLAN TABLE-->
+
+   <section id="news" class="plan-table light-grey-bg">
+      <div class="container">
+         <!-- SECTION HEADER-->
+         <div data-wow-offset="15" data-wow-duration="1.3s" class="section-header wow fadeIn animated">
+             <h2 class="stripes"><span>Новости</spam></h2>
+         </div>
+         <div class="row">
+             <div class="col-md-6">
+                 <div class="panel panel-theme box-shadow">
+                     <div class="panel-heading">
+                         <h3 class="text-center">Акции:</h3>
+                     </div>
+                     <div class="panel-body">
+                         <ul class="featured-list">
+                             <li>
+                                 <span class="fa-stack fa-lg">
+                                     <em class="fa fa-diamond fa-stack-1x fa-inverse green"></em>
+                                 </span>
+                                Для новых клиентов, при заключении договора
+                                 на долгосрочное обслуживание первый месяц обслуживания скидка 50%.
+                             </li>
+                             <li>
+                                 <span class="fa-stack fa-lg">
+                                     <em class="fa fa-diamond fa-stack-1x fa-inverse green"></em>
+                                 </span>
+                                При предоплате - скидка на оказываемые услуги 10%.
+                             </li>
+                             <li>
+                                 <span class="fa-stack fa-lg">
+                                     <em class="fa fa-diamond fa-stack-1x fa-inverse green"></em>
+                                 </span>
+                                Для вновь созданных организаций первый месяц обслуживания БЕСПЛАТНО.
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-6 text-center">
+                <img class="box-shadow" width="85%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThfv4O5VJfqY3gEqJP1_Kxk7g21O6IU3r9El6OGJdcw72DG2jgVw" alt="">
+             </div>
+         </div>
+     </div>
+   </section>
 
    <!-- START PLAN TABLE-->
    <section id="contact" class="contact">
@@ -425,11 +935,13 @@
             <h2>Свяжитесь с нами</h2>
             <div class="text-center">
                <address>
-                  <strong>Бухгалтикум, Inc.</strong>
-                  <br>79557 Минск
-                  <br>Минск, ул. Улица 95
+                  <strong class="logo-md">Ваш любимый бухгалтер</strong>
+                  <br> Минск
                   <br>
-                  <abbr title="Phone">Тел.: </abbr>(123) 456-78-90</address>
+                  <abbr title="Phone">Тел.: </abbr>(+375) 44 771-61-62 <br>
+                  email: love_buh@mail.ru <br>
+                  skype: love_buh
+              </address>
             </div>
          </div>
          <!-- SOCIAL SHARE-->
@@ -446,22 +958,7 @@
             </li>
             <li>
                <a href="">
-                  <em class="fa fa-google-plus-square"></em>
-               </a>
-            </li>
-            <li>
-               <a href="">
                   <em class="fa fa-instagram"></em>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <em class="fa fa-flickr"></em>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <em class="fa fa-pinterest-square"></em>
                </a>
             </li>
          </ul>
