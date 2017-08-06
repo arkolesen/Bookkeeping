@@ -66,6 +66,10 @@ html {
     font-family: 'Marianna';
 }
 
+.marianna {
+    font-family: 'Marianna';
+}
+
 body {
   margin: 0;
 }
@@ -458,7 +462,6 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #3a3f51;
 }
 h1,
 .h1,
@@ -554,10 +557,10 @@ mark,
   padding: .2em;
 }
 .text-left {
-  text-align: right;
+  text-align: left;
 }
 .text-right {
-  text-align: left;
+  text-align: right;
 }
 .text-center {
   text-align: center;
@@ -2828,12 +2831,12 @@ tbody.collapse.in {
   outline: 0;
 }
 .dropdown-menu-right {
-  right: auto;
-  left: 0;
+  right: 0;
+  left: left;
 }
 .dropdown-menu-left {
-  right: 0;
-  left: auto;
+  right: auto;
+  left: 0;
 }
 .dropdown-header {
   display: block;
@@ -5647,15 +5650,15 @@ button.close {
 }
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  left: 15%;
   bottom: 20px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 10%;
 }
 .carousel-caption .btn {
   text-shadow: none;
@@ -5679,8 +5682,6 @@ button.close {
     margin-left: -10px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
     padding-bottom: 30px;
   }
   .carousel-indicators {
@@ -5746,10 +5747,10 @@ button.close {
   margin-left: auto;
 }
 .pull-right {
-  float: left !important;
+  float: right !important;
 }
 .pull-left {
-  float: right !important;
+  float: left !important;
 }
 .hide {
   display: none !important;
@@ -6094,6 +6095,7 @@ a:hover {
   color: #232735 !important;
   position: relative;
   outline: none;
+  font-weight: 700;
 }
 body {
   overflow: hidden;
@@ -6274,7 +6276,6 @@ header .top-logo > img {
 @media only screen and (min-width: 768px) {
   header .top-logo {
     height: auto;
-    padding: 110px 0px 30px 0px;
   }
 }
 @media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -6289,6 +6290,9 @@ header .full-screen {
 .versions {
   padding-bottom: 30px;
   background: #fff;
+}
+.versions h3 {
+    font-size: 1.4em;
 }
 .version-pic {
   margin: 0 auto;
@@ -6395,14 +6399,15 @@ header .full-screen {
   list-style-type: none;
   padding-right: 0;
   margin: 40px 0;
+  padding-left: 15px;
 }
 .featured-list > li {
-  margin-bottom: 26px;
+  margin-bottom: 5px;
   color: #515253;
   line-height: 2em;
 }
 .featured-list > li {
-  margin-bottom: 26px;
+  margin-bottom: 5px;
 }
 .featured-list > li > span {
   color:  #60ea9c;
@@ -6482,7 +6487,6 @@ header .full-screen {
   overflow: auto;
   border-radius: 4px;
   margin-bottom: 60px;
-  padding-bottom: 30px;
 }
 .plan .plan-header {
   background-color: #60ea9c;
@@ -6490,11 +6494,13 @@ header .full-screen {
   margin: 0;
   padding: 20px 10px;
   text-align: center;
+  font-weight: 700;
 }
 .plan .plan-price {
-  background: #fff;
+  /*background: #fff;*/
   padding: 16px 8px;
   text-align: center;
+  color: #fff;
 }
 .plan .plan-price h2 {
   margin: 0;
@@ -6936,7 +6942,11 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
 }
 
 .navigation {
-    font-size: 0.85em;
+    font-size: 1.1em;
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
 
 .separator {
@@ -6975,11 +6985,11 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
     flex: 1;
     content: "";
     height: 1px;
-    background-color: #515253;
+    background-color: #60ea9c;
 }
 
 .font-lg {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .font-md {
@@ -7009,9 +7019,9 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
     border-top-left-radius: 3px;
 }
 
-.light-grey-bg {
+/*.light-grey-bg {
     background-color: #f5f7fa;
-}
+}*/
 
 .green {
     color: #60ea9c;
@@ -7056,4 +7066,28 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
 #about {
     margin-top: 60px;
     padding-top: 60px;
+    font-size: 1.4em;
 }
+
+#about h3 {
+    font-size: 1.4em;
+}
+
+.item > img {
+    opacity: 0.7;
+}
+
+.m0 {
+    margin: 0!important;
+}
+
+.mockup-mobile {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10% 0;
+}
+
+.mockup-mobile > img {
+    width: 100%;
+};
