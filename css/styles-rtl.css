@@ -372,6 +372,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.carousel-inner > .item {
+    min-height: 160px;
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -770,7 +773,6 @@ blockquote.pull-left .small:after {
   content: '\00A0 \2014';
 }
 address {
-  margin-bottom: 25px;
   font-style: normal;
   line-height: 1.52857143;
 }
@@ -5620,15 +5622,16 @@ button.close {
   content: '\203a';
 }
 .carousel-indicators {
-  position: absolute;
-  bottom: 10px;
+    display: none;
+  /*position: absolute;
+  bottom: 5px;
   right: 50%;
   z-index: 15;
   width: 60%;
   margin-right: -30%;
   padding-right: 0;
   list-style: none;
-  text-align: center;
+  text-align: center;*/
 }
 .carousel-indicators li {
   display: inline-block;
@@ -5650,15 +5653,16 @@ button.close {
 }
 .carousel-caption {
   position: absolute;
-  bottom: 20px;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #ffffff;
+  color: #515253;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
-  background-color: rgba(0, 0, 0, 0.6);
+  /*text-shadow: 0 1px 3px rgba(0, 0, 0, 1);*/
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  height: 100%;
+  width: 100%;
   padding: 0 10%;
+  top: 25px;
+  bottom: 20px;
+  padding: 0 7%;
 }
 .carousel-caption .btn {
   text-shadow: none;
@@ -5680,12 +5684,6 @@ button.close {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-left: -10px;
-  }
-  .carousel-caption {
-    padding-bottom: 30px;
-  }
-  .carousel-indicators {
-    bottom: 20px;
   }
 }
 .clearfix:before,
@@ -6180,9 +6178,6 @@ header {
   overflow: hidden;
   /* Background image fallback */
   text-align: center;
-  background: url('../img/bg-fallback-header.jpg') no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
   /* INTRO */
 }
 @media only screen and (min-width: 768px) {
@@ -6191,11 +6186,6 @@ header {
   }
 }
 @media (min-device-width : 768px) and (max-device-width : 1024px) {
-  header {
-    background: url('../img/bg-fallback-header.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
-  }
 }
 header.novideo {
   background:url('../img/logo.jpg') 45% 35% no-repeat;
@@ -6423,10 +6413,6 @@ header .full-screen {
 .feedbacks {
   padding: 110px 0;
   color: #fff;
-  /* Background image fallback */
-  background: url('../img/bg-fallback-feedback.jpg') no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 .feedbacks .feedback-client {
   max-width: 750px;
@@ -6541,10 +6527,6 @@ header .full-screen {
   padding: 110px 0;
   text-align: center;
   color: #fff;
-  /* Background image fallback */
-  background: url('../img/bg-fallback-download.jpg') no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 .download h2 {
   margin-top: 0;
@@ -7090,4 +7072,12 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
 
 .mockup-mobile > img {
     width: 100%;
-};
+}
+
+.border-green-bold {
+    border: 2px solid #60ea9c;
+}
+
+.padding-15-perc {
+    padding: 15%;
+}
