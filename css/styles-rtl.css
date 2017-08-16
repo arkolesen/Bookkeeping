@@ -7081,3 +7081,13 @@ label + .form-control + .parsley-errors-list + .form-control-feedback {
 .padding-15-perc {
     padding: 15%;
 }
+
+.news-item {
+    margin-bottom: 35px;
+}
+
+.news-head {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 8px;
+    margin-bottom: 15px;
+}
